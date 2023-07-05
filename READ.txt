@@ -1,0 +1,5 @@
+
+
+The dataset consists of 28x28 pixel images displaying either a t-shirt or a sweater. The task is to find a classification method to discriminate between these two classes. 
+
+The dataset contains 6000 t-shirt images and 6000 sweater images. The data come as a huge matrix (12000x786), where the k-th image is decoded in the k-th row of the matrix. The first entry in each row is a counter, the second entry is the label (t-shirt=0, sweater=1), all subsequent 784 (=28x28) entries are the grayscale values of the image, where the pixel value in the i-th row and j-th column is recorded in the (2+28i+j)-th entry.
